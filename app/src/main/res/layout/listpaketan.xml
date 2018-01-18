@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:id="@+id/txtpk1"/>
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpk2"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtpk1"
+        android:layout_toEndOf="@+id/txtpk1"
+        android:text="Nama"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"
+        android:id="@+id/txtpk3"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

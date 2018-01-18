@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "587322250933",
+    "firebase_url": "https://kuliah-semester-4.firebaseio.com",
+    "project_id": "kuliah-semester-4",
+    "storage_bucket": "kuliah-semester-4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587322250933:android:45c093a41f2b6174",
+        "android_client_info": {
+          "package_name": "com.venomgamz.ade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587322250933-fg0nhhpfr1cmj6f8efgvl76qitgkrt58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.venomgamz.ade",
+            "certificate_hash": "c2865ab229708ea83f33c5610a1bc980fca48a82"
+          }
+        },
+        {
+          "client_id": "587322250933-a28o5cbp0tiup8qbjtfjncvmistt5rlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ68o20FBQewB1H0uvjehHAEXGe8-bYo4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587322250933-a28o5cbp0tiup8qbjtfjncvmistt5rlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

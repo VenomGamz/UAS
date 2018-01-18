@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtuppaketan"
+        android:hint="Nama Paketan"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtuphargpk"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtuppaketan"
+        android:hint="Harga Paketan"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtupstok"
+        android:layout_below="@+id/edtuphargpk"
+        android:layout_marginTop="10dp"
+        android:hint="stok"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/btndelete"
+        android:layout_below="@+id/edtupstok"
+        android:layout_marginTop="15dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtnmpaketan"
+        android:hint="nama paketan"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="harga paketan"
+        android:id="@+id/edthrgpaketan"
+        android:layout_below="@+id/edtnmpaketan"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtstock"
+        android:hint="Stock"
+        android:layout_below="@+id/edthrgpaketan"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
